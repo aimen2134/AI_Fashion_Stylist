@@ -1,30 +1,59 @@
-# AI Fashion Stylist – Simple Rule-Based Outfit Recommendation System
 
-This semester project recommends outfits based on natural language input.
-It classifies:
-- gender (male/female)
-- style (casual, formal, party, business)
+and generates:
 
-and then generates:
-- an outfit description  
-- a few sample image paths  
+- Gender classification (male/female)
+- Style classification (casual/formal/party)
+- An outfit recommendation sentence
+- Optional image paths (if added in the future)
 
-The system is built using a 3-layer architecture:
-- Data Layer
-- Application Layer
-- Presentation Layer (console UI)
+---
 
-## How to Run
-1. Open the Colab notebook: `AI_Fashion.ipynb`
-2. Run all cells from top to bottom.
-3. When asked, type an outfit description such as:
-   - "casual outfit for my sister"
-   - "formal outfit for male"
-   - "party outfit for my friend"
+# 🚀 Run the Project in Google Colab
 
-The system outputs a text-based recommendation.
+Click the button below to run the project immediately in Colab:
 
-## Notes
-- The system uses a rule-based classifier (no dataset required).
-- Images are optional. If image files exist, they will be shown automatically.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aimen2134/AI_Fashion_Stylist/blob/main/AI_Fashion.ipynb)
+
+---
+
+# 📘 How It Works
+
+The project follows a simple 3-layer software architecture:
+
+### 1. **Data Layer**
+Contains a built-in catalogue of outfit templates and sample image paths.
+
+### 2. **Application Layer**
+- TextPreprocessor
+- RequestValidator
+- CategoryClassifier (rule-based)
+- RecommendationEngine
+- SystemLogger
+- AppController
+
+These components work together to process input and generate recommendations.
+
+### 3. **Presentation Layer**
+A simple **console-based user interface** inside the notebook:
+
+- You type a description  
+- The system outputs:
+  - classified gender  
+  - style  
+  - recommended outfit  
+  - sample image path  
+
+---
+
+# 📂 Files in This Project
+
+| File | Purpose |
+|------|---------|
+| `AI_Fashion.ipynb` | Main executable notebook |
+| `requirements.txt` | Python dependencies |
+| `README.md` | Project documentation |
+
+---
+
+# 🧪 Example Output
 
