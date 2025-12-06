@@ -1,18 +1,30 @@
-AI Fashion Stylist – Outfit Recommendation System
+# AI Fashion Stylist – Simple Rule-Based Outfit Recommendation System
 
-This project is an AI-based fashion recommendation system built as a semester project.  
-It takes a natural language description (e.g., *"formal outfit for my sister"*) and recommends:
+This semester project recommends outfits based on natural language input.
+It classifies:
+- gender (male/female)
+- style (casual, formal, party, business)
 
-- The style category (casual, formal, party, business)
-- The gender (male/female)
-- A suggested outfit description
-- Sample outfit images from the dataset
+and then generates:
+- an outfit description  
+- a few sample image paths  
 
----
+The system is built using a 3-layer architecture:
+- Data Layer
+- Application Layer
+- Presentation Layer (console UI)
 
-How to Run the Project (Simple Version)
+## How to Run
+1. Open the Colab notebook: `AI_Fashion.ipynb`
+2. Run all cells from top to bottom.
+3. When asked, type an outfit description such as:
+   - "casual outfit for my sister"
+   - "formal outfit for male"
+   - "party outfit for my friend"
 
-1. Download this repository as a ZIP or clone it.
-2. Extract everything.
-3. Open the notebook file:
+The system outputs a text-based recommendation.
+
+## Notes
+- The system uses a rule-based classifier (no dataset required).
+- Images are optional. If image files exist, they will be shown automatically.
 
