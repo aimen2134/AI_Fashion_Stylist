@@ -1,3 +1,8 @@
+# AI Fashion Stylist – Simple Outfit Recommendation System
+
+This is a simple rule-based outfit recommendation project built for a semester submission.  
+
+It takes a natural language description like:
 
 and generates:
 
@@ -8,7 +13,7 @@ and generates:
 
 ---
 
-# 🚀 Run the Project in Google Colab
+# Run the Project in Google Colab
 
 Click the button below to run the project immediately in Colab:
 
@@ -16,7 +21,7 @@ Click the button below to run the project immediately in Colab:
 
 ---
 
-# 📘 How It Works
+#  How It Works
 
 The project follows a simple 3-layer software architecture:
 
@@ -45,7 +50,7 @@ A simple **console-based user interface** inside the notebook:
 
 ---
 
-# 📂 Files in This Project
+#  Files in This Project
 
 | File | Purpose |
 |------|---------|
@@ -53,7 +58,5 @@ A simple **console-based user interface** inside the notebook:
 | `requirements.txt` | Python dependencies |
 | `README.md` | Project documentation |
 
----
 
-# 🧪 Example Output
 
