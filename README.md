@@ -10,7 +10,7 @@ It takes a natural language description (e.g., *"formal outfit for my sister"*) 
 
 ---
 
-## 🚀 How to Run the Project (Simple Version)
+How to Run the Project (Simple Version)
 
 1. Download this repository as a ZIP or clone it.
 2. Extract everything.
